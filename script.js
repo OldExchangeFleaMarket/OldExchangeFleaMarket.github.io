@@ -1,5 +1,5 @@
 Function checkOpenStatus() {
-    cosnt openStatus = document.getElementById('openStatus');
+    cosnt openStatus = document.getElementById('open-status');
     const now = new Date();
     const day = now.getDay(); // 0 = Sunday, 1 = Monday, etc.
     const hour = now.getHours();
