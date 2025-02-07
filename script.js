@@ -24,5 +24,6 @@ Function checkOpenStatus() {
         openStatus.classList.add("closed");
         openStatus.classList.remove("open");
     }
+}
     //run the function when the page loads
     window.onload = checkOpenStatus;
