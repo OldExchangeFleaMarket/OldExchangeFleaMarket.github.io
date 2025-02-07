@@ -1,5 +1,9 @@
-Function checkOpenStatus() {
+function checkOpenStatus() {
     const openStatus = document.getElementById('open-status');
+    if (!openStatus) {
+        console.error("Element with ID 'open-status' not found.");
+        return;
+    }
     const now = new Date();
     const day = now.getDay(); // 0 = Sunday, 1 = Monday, etc.
     const hour = now.getHours();
