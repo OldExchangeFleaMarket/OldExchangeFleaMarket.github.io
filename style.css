@@ -25,6 +25,7 @@ body {
     background-size: cover;
     background-position: center;
     color: white;
+    width: 100%;
 }
 footer {
     background-color: maroon;
