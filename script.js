@@ -12,8 +12,7 @@ function checkOpenStatus() {
     let isOpen = false;
 
     if (
-        ((day >= 3 && day <= 6) && (hour >= 10 && hour < 17)) ||
-        (day === 0 && (hour >= 13 && hour < 17))
+        ((day >= 3 && day <= 6) && (hour >= 10 && hour < 17))
     ) {
         isOpen = true;
     }
